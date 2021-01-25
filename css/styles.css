@@ -1,0 +1,513 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+
+    height: 100%;
+    position: relative;
+    padding-bottom: 20rem;
+
+
+    
+
+}
+
+.page-content{
+    min-height: 100vh;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1rem 2rem #000;
+}
+
+
+
+
+
+.carousel-item {
+    height: 50vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+/* footer */
+
+
+.footer{
+    position: sticky;
+    display: block;
+    color: #d3d3d3;
+    height:20rem;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+.footer .footer-content{
+    height: 18rem;
+}
+
+.footer .footer-content .footer-section{
+    background: #3a3a3a;
+    padding: 25px;
+    font-size: 0.9rem;
+
+}
+
+.footer-content h1,
+.footer-content h2{
+    color: #ffc038;
+}
+
+.footer-content .about .contact span{
+    display: block;
+    padding: 5px;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+
+}
+
+.footer-content .about .socials a{
+
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 1.3rem;
+    height: 41px;
+    width: 45px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: all .3s
+}
+
+
+.footer-content .about .socials a:hover{
+    border: 1px solid #ffc038;
+    color: #ffc038;
+    transform: scale(1.3,1.3);
+    transition: all .3s;
+}
+
+.footer-content .links ul{
+    list-style-type: none;
+}
+
+.footer-content .links ul a{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    display: block;
+    margin-left: 15px;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.3s;
+    width: fit-content;
+    
+}
+
+.footer-content .links ul a:hover{
+    color: #ffc038;
+    transform: scale(1.2);
+    margin-left: 25px;
+    transition: all 0.3s;
+}
+
+.footer-content .contact-form .contact-input{
+    padding: .9rem 1.2rem;
+    margin-top: 1rem;
+    background: #2a2a2a;
+    color:#bebdbd;
+    line-height: 1.5rem;
+    border: none;
+    
+    
+}
+
+
+.footer-content .contact-form .contact-input:focus{
+    background: #1a1a1a;
+}
+
+.footer-content .contact-form .contact-btn{
+    float:right;
+}
+
+.footer-section a{
+    color: #d3d3d3;
+}
+
+.footer-section img{
+    padding: 0px;
+    margin: 0px;
+    height: 3.5rem;
+    width: auto;
+}
+
+.footer-bottom{
+    
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0%;
+    background: #343a40;
+    color: #686868;
+    height: 2rem;
+    z-index: -1;
+    
+}
+
+
+.text-input{
+    padding: .7rem 1 rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #6a6a6a;
+    outline: none;
+}
+
+.btn{
+    margin-top: .5rem;
+    padding: .5rem 1rem;
+    color: white;
+    background-color: #6a6a66;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    color: #ffc038;
+}
+
+.btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+.slide-btn{
+    border: 1px solid #ffc038;
+    padding: .1rem .5rem;
+    border-radius: 5px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s linear;
+  }
+  
+  .sidenav a:hover {
+    color: #ffc038;
+    transform: scale(1.12);
+    margin-left: 20px;
+    transition: 0.3s linear;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #D4AF37;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    
+    color: #D4AF37;	
+    padding-right: 16px;
+    
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .dropright{
+      z-index: 5;
+  }
+
+
+  #nav-content{
+      transition: all 0.3s linear;
+  }
+
+
+
+  #nav-content:hover{
+        transform: scale(1.1);
+        color: #ffc038;
+        transition: all 0.3s linear;
+  }
+
+.First-Card{
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 6rem;
+    
+}
+.Second-Card{
+    padding-top: 30px;
+    position: relative;
+
+}
+.card-deck{
+    width: auto;
+}
+.card-container{
+    padding-top: 30px;
+}
+
+.card{
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   transition: all 0.3s;
+   border-radius: 5%;
+}
+
+.card:hover{
+    border: #ffc038 solid 3px;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+    background-color: #343a40;
+    color:#ffffff;
+}
+
+
+
+
+
+
+/* Banner */
+
+
+.Banner{
+    padding-top: 50px;
+}
+
+/* Banner End */
+
+
+
+/* Cart-Button */
+input.button {
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    text-transform: capitalize;
+    padding: .5em 2.5em .5em 1em;
+    border: 1px solid #84c639;
+    margin: .35em 0 0;
+    background: url(../images/cart.png) no-repeat 116px 9px;
+    margin-right: 40px;
+}
+
+
+.snipcart-details input.button {
+    font-size: 14px;
+    color: #fff;
+    background: #FA1818;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: .5em 0;
+    outline: none;
+
+}
+
+
+/* Cart-Button-Hover */
+
+
+/* drop-down-toggle-Signup  */
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dropdown-toggle{
+    margin-right: 20px;
+    margin-bottom: 5px;
+/*    opacity: 0.7;   */
+}
+
+.top-offers{
+    
+        text-align: center;
+        color: #212121;
+        padding-bottom: .5em;
+        position: relative;
+        font-size: 2.5em;
+}
+.top-offers::after{
+    content: '';
+    background: #FA1818;
+    height: 2px;
+    width: 8%;
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+}
+
+.top-brands{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.tag {
+    position: absolute;
+    top: -1%;
+    right: 10%;
+}
+.agile_top_brand_left_grid_pos {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+
+.show {
+    /* opacity: 0.7; */
+    z-index: 3;
+}
+
+
+
+#back-to-top{
+    position: fixed;
+    bottom: 15.8rem;
+    right: 3rem;
+    display: none;
+    
+
+}
+
+/* 
+Banner */
+.wthree_banner_bottom_left_grid_pos {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.wthree_banner_bottom_left_grid_pos h4 span {
+    display: block;
+    line-height: 1;
+    width: 80px;
+    height: 80px;
+    background: #FA1818;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 1.2em;
+    margin: 0.5em auto 0;
+}
+.wthree_banner_bottom_left_grid_pos h4 {
+    font-size: 1.5em;
+    color: #000000;
+}
+.wthree_banner_btm_pos {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    padding: 0 2em;
+}
+.wthree_banner_btm_pos h3 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: #212121;
+    font-weight: 300;
+}
+.wthree_banner_btm_pos h3 span {
+    color: #84C639;
+    font-weight: 600;
+    display: block;
+    line-height: 1.8em;
+    padding-left: 7em;
+}
+.wthree_banner_btm_pos h3 i {
+    color: #FA1818;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.wthree_banner_btm_pos1 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+.wthree_banner_btm_pos1 h3 {
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 2em;
+}
+.wthree_banner_btm_pos1 h3 span {
+    display: block;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #FA1818;
+}
+
+/* Cart  */
+
+.minicart-showing #PPMiniCart form {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#PPMiniCart form {
+    position: relative;
+    width: 400px;
+    max-height: 400px;
+    margin-left: -200px;
+    padding: 10px 10px 40px;
+    background: #fbfbfb;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font: 15px/normal arial, helvetica;
+    color: #333;
+}
+#PPMiniCart form {
+    width: 590px !important;
+    padding: 10px 20px 40px !important;
+    max-height: 450px !important;
+}
