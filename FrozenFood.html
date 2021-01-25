@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="favicon/favicon1.ico" type="image/x-icon"> -->
+    <link rel="icon" href="favicon/favicon1.ico" type="image/x-icon">
+
+    <title>
+
+        BUY RIGHT | ONLINE STORE
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- favicon -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon_io/site.webmanifest">
+
+    <!-- bootstrap cdn added -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/01f85b27a0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Fonts added -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- custom css and js -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="products.html">Branded Food</a>
+            <a href="household.html">HouseHolds</a>
+            <a href="vegetables.html">Veggies & Fruits</a>
+            <a href="Kitchen.html">Kitchen</a>
+            <a href="bevereges.html">Beverages</a>
+            <a href="petFood.html">Pet Food</a>
+            <a href="FrozenFood.html">Frozen Food</a>
+            <a href="Bakery.html">Bread & Bakery</a>
+          </div>
+
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" class="slide-btn" onclick="openNav()">&#9776; </span>
+        </div>
+
+       <a class="navbar-brand" href="index.html"><img src="resources/dark-logo-2.png" alt="Brand-logo"></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="Events.html" id="nav-content">Events</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="nav-content">About Us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link " href="products.html" id="nav-content">Best Deals</a>
+            </li>
+           
+
+
+        </ul>
+
+        <form action="#" method="post" class="last">
+            <fieldset>
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="display" value="1">
+                <input type="submit" name="submit" value="View your cart" class="button ">
+            </fieldset>
+        </form>
+
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="login.html">Login</a>
+                <a class="dropdown-item" href="#">Sign Up</a>
+                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+            </div>
+        </div>
+
+
+        <form class="form-inline my-2 my-lg-0">
+
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary " type="submit" style="margin-bottom: 8px;">&nbsp;Search</button>
+        </form>
+
+    </nav>
+
+
+
+
+
+    <div class="page-content container-fluid">
+
+        <div class="top-brands">
+            <div class="First-Card">
+                <h3 style="text-align: center;" class="top-offers">Frozen Food</h3>
+                <div class="container card-container">
+
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <!-- <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div> -->
+                            <img src="https://ui.assets-asda.com/dm/asdagroceries/5010228001838_T1?defaultImage=asdagroceries/noImage&resMode=sharp2&id=MAERp3&fmt=jpg&fit=constrain,1&wid=256&hei=256"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">McCain French Fries</h5>
+                                <p class="card-text"> &#8377 125 </p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="McCain French Fries">
+                                            <input type="hidden" name="amount" value="125">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+
+                                            <input type="submit" name="submit" value="Add to cart" class="button btn-11"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <!-- <div class="tag"><img src="images/tag.png" alt=" " class="img-responsive"></div> -->
+
+                            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/27ddb5c5-dc3c-49df-8db1-bf2f3a46287f_425x425.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Godrej Chicken Garlic Fingers</h5>
+                                <p class="card-text"> &#8377 73</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Chicken Garlic Fingers">
+                                            <input type="hidden" name="amount" value="73">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/offer.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=250,height=250,quality=75,format=auto,fit=cover,g=top/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/ProductImages/Source/132871844.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Godrej Crispy Veg Sticks</h5>
+                                <p class="card-text">&#8377 99 <del>&nbsp;125</del></p>
+                                <div class="snipcart-details top_brand_home_details ">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Godrej Crispy Veg Sticks">
+                                            <input type="hidden" name="amount" value="99">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://www.bigbasket.com/media/uploads/p/s/103683_12-safal-frozen-green-peas.jpg"                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Safal Frozen Green Peas</h5>
+                                <p class="card-text">&#8377 74</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Safal Frozen Green Peas">
+                                            <input type="hidden" name="amount" value="74">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="Second-card" style="margin-bottom: 5%;">
+                <div class="container card-container">
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://foodsbaskets.com/wp-content/uploads/2020/05/Yummiez-Aloo-Tikki-400gm.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Godrej Aloo TIkki</h5>
+                                <p class="card-text">&#8377 65</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Godrej Aloo TIkki">
+                                            <input type="hidden" name="amount" value="65">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://5.imimg.com/data5/QY/HB/MY-30494656/mcchain-frozon-smile-500x500.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">McCain Smiles</h5>
+                                <p class="card-text">&#8377 52</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="McCain Smiles">
+                                            <input type="hidden" name="amount" value="52">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <img src="images/offer.png" alt=" " class="img-responsive">
+                            </div>
+                            <img src="https://cdn.shopify.com/s/files/1/0279/0853/8503/products/IMG_8101_250x250@2x.png?v=1596976361"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mix Veg Wrap</h5>
+                                <p class="card-text">&#8377 56 <del>&nbsp; 75</del></p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Mix Veg Wrap">
+                                            <input type="hidden" name="amount" value="56">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81WNekWv1ML._SX466_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sweet Peas</h5>
+                                <p class="card-text">&#8377 159</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Canned Sweet Peas">
+                                            <input type="hidden" name="amount" value="159">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="Third-card">
+                <div class="container card-container">
+
+
+                    <div class="card-deck row">
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://vinayakfoodsgroup.com/indian-ready-to-eat/wp-content/uploads/2019/05/lemon-rice-pouch1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lemon Rice</h5>
+                                <p class="card-text">&#8377 68</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Lemon Rice">
+                                            <input type="hidden" name="amount" value="68">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"> </small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://cdn.shopify.com/s/files/1/0268/9351/6902/products/SIU300gVegetableBiryani3D-front_1024x1024@2x.jpg?v=1586477555" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Veg Biryani</h5>
+                                <p class="card-text">&#8377 84</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Veg Biryani">
+                                            <input type="hidden" name="amount" value="84">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://dei-store.s3.ap-southeast-1.amazonaws.com/image-square//37255-37255-Tandoori%20Chicken%20300g" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tandoori Chicken</h5>
+                                <p class="card-text">&#8377 165</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Tandoori Chicken">
+                                            <input type="hidden" name="amount" value="165">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <div class="agile_top_brand_left_grid_pos">
+                                <!-- <img src="images/offer.png" alt=" " class="img-responsive"> -->
+                            </div>
+                            <img src="https://www.desibazaargrocery.com/image/cache/catalog/frozen/product-936-300x300.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lacha Paratha</h5>
+                                <p class="card-text">&#8377 150</p>
+                                <div class="snipcart-details top_brand_home_details">
+                                    <form action="checkout.html" method="post">
+                                        <fieldset>
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="business" value=" ">
+                                            <input type="hidden" name="item_name" value="Lacha Paratha">
+                                            <input type="hidden" name="amount" value="150">
+                                            <input type="hidden" name="discount_amount" value="1.00">
+                                            <input type="hidden" name="currency_code" value="Rupees">
+                                            <input type="hidden" name="return" value=" ">
+                                            <input type="hidden" name="cancel_return" value=" ">
+                                            <input type="submit" name="submit" value="Add to cart" class="button"
+                                                style="background-color:#ffc038 ;">
+
+                                        </fieldset>
+
+                                    </form>
+
+                                </div>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="footer container-fluid">
+        <div class="footer-content row">
+            <div class="footer-section about col-md-4">
+                <img src="resources/dark-logo-2.png" alt="Brand-logo">
+                <br>
+                <p>
+                    We Provide Best Prices for anything that you buy here. Let Your Money Bring The Best to you. THe
+                    right To you.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"> &nbsp; +91 - 7004341074</i></span>
+                    <span><i class="fas fa-envelope">&nbsp;astroitsol@gmail.com</i></span>
+                </div>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links col-md-4">
+                <h2>Quick Links</h2>
+                <br />
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">My Cart</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form col-md-4">
+                <h2>Contact us</h2>
+                <form action="index.html">
+                    <input type="email" name="email" class="text-input contact-input"
+                        placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope">
+                        </i>
+                        send
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom row">
+            <div class="col-12">
+                &copy; BuyRight.com | Designed by Astro IT Solutions.
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Scrollback to top -->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+                $(this).toggleClass('open');        
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+                $(this).toggleClass('open');       
+            }
+        );
+    });
+    </script>
+    <!-- here stars scrolling icon -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+            };
+          */
+                    
+          $().UItoTop({ easingType: 'easeOutQuart' });
+                    
+          });
+      </script>
+    <!-- //here ends scrolling icon -->
+    <script src="js/minicart.js"></script>
+    <script>
+        paypal.minicart.render();
+    
+        paypal.minicart.cart.on('checkout', function (evt) {
+          var items = this.items(),
+            len = items.length,
+            total = 0,
+            i;
+    
+          // Count the number of each item in the cart
+          for (i = 0; i < len; i++) {
+            total += items[i].get('quantity');
+          }
+    
+          if (total < 3) {
+            alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+            evt.preventDefault();
+          }
+        });
+    
+      </script>
+  
+
+</body>
+
+</html>
