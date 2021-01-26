@@ -16,6 +16,10 @@ html,body{
 
 }
 
+.row{
+    margin-bottom: 50px;
+}
+
 .page-content{
     min-height: 100vh;
     position: relative;
